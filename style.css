@@ -222,11 +222,13 @@ button:hover {
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .about .profile-links a img {
     width: 3rem;
     margin-top: 1.5rem;
+    margin: 1rem 1rem;
     border-radius: 50%;
 }
 
@@ -774,7 +776,7 @@ margin-bottom: 0.5em;
 @media screen and (max-width: 684px) {
     
     .contact-section {
-        margin-top: 30rem;
+        margin-top: 45rem;
     }
 }
  

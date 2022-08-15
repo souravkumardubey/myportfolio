@@ -4,6 +4,7 @@ ScrollReveal().reveal('.main-section',{ delay: 250 });
 ScrollReveal().reveal('.about-section',{ delay: 250 });
 ScrollReveal().reveal('.projects-section',{ delay: 250 });
 ScrollReveal().reveal('.CV-page',{ delay: 250 });
+ScrollReveal().reveal('.contact-section',{ delay: 250 });
 
 var mybutton = document.getElementById("myBtn");
 
