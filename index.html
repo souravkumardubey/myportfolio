@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Sourav Kumar Dubey | Porfolio</title>
+</head>
+<body id="body">
+  <button onclick="topFunction()" id="myBtn" title="Go to top">👆</button>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#body">Home</a>
+    <a href="#about-section">About</a>
+    <a href="#projects-section">Projects</a>
+    <a href="#contact-section">Contact</a>
+  </div>
+    <header class = "header" id = "header">
+        <a href="index.html" class="logo">Sourav</a>
+        <!-- <ul class="nav-links">
+            <li class="nav_link"> <a href="#body" >Home</a> </li>
+            <li class="nav_link"><a href="#about-section">About</a></li>
+            <li class="nav_link"><a>Projects</a></li>
+            <li class="nav_link"><a>Contact</a></li>
+            <a href=""></a>
+        </ul> -->
+        <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'));openNav();" aria-label="Main Menu">
+          <svg width="50" height="50" viewBox="0 0 100 100">
+            <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+          </svg>
+        </button>
+    </header>
+    <section class="main-section" id = "main-section">
+        <div class="intro">
+            <img src="./img/73059672.jfif" class="profile-pic" alt="">
+            <h2 class="intro-name">Hi, I'm Sourav!</h2>
+            <!-- <h3 class="typewriter"><span>Web Developer | Competitive Coder</span></h3> -->
+            <div class="typewriter">
+              <h3>Web Developer</h3>
+              <h3 class="separator">&nbsp;|&nbsp; </h3>
+              <h3> Competitive Coder</h3>
+            </div>
+            <button class="resume">
+              <a class="" href="Sourav_Kumar Dubey_Resume.pdf" title="" download>Resume</a>
+            </button>
+        </div>
+    </section>
+    <section class="about-section" id="about-section">
+        <div class="about-sec">
+            <div class="about">
+                <h2 class="heading">About Me &#x270C;</h2>
+                <p class="about-desc">Hello! My name is Sourav Kumar Dubey. I am undergrad student pursuing my bachelors degree in Computer Science.
+                    <br>
+                    I am enthusiastic about Open Source, Full-stack Development, Software Development, Hackathons and competitive coding.
+                </p>
+                <div class="profile-links">
+                    <a href="https://www.linkedin.com/in/sourav-kd/" target="_blank" title="linkedin"><img src="./img/linkedin.png" alt=""></a>
+                    <a href="https://twitter.com/KING75824857" target="_blank" title="twitter"><img src="./img/twitter.png" alt=""></a>
+                    <a href="https://www.codechef.com/users/dp_is_tough" target="_blank" title="codechef"><img src="./img/codechef.png" alt=""></a>
+                    <a href="https://codeforces.com/profile/sourav1201" target="_blank" title="codeforces"><img src="./img/codeforces.webp" alt=""></a>
+                    <a href="https://leetcode.com/sourav_kd/" target="_blank" title="leetcode"><img src="./img/leetcode.png" alt=""></a>
+                </div>
+            </div>
+            <div class="skills">
+                <h2 class="heading">Skills 🤹</h2>
+                <div class="list-skills">
+                    <img src="./img/c-.png" class="skill" alt="">
+                    <img src="./img/java.png" class="skill" alt="">
+                    <img src="./img/python.png" class="skill" alt="">
+                    <img src="./img/html-5.png" class="skill" alt="">
+                    <img src="./img/css-3.png" class="skill" alt="">
+                    <img src="./img/java-script.png" class="skill" alt="">
+                    <img src="./img/bootstrap.png" class="skill" alt="">
+                    <img src="./img/sass.png" class="skill" alt="">
+                    <img src="./img/git.png" class="skill" alt="">
+                    <img src="./img/github.png" class="skill" alt="">
+                </div>
+            </div>
+        </div>
+        <main class="CV-page">
+            <div class="CV-grid">
+              <div class="CV-grid-column">
+                <div class="CV-jobs">
+                  <h2 class="CV-secondaryHeading CV-jobs-heading heading">Work Experience👨‍💻</h2>
+                  <section class="CV-timeline CV-job">
+                    <h3 class="CV-timeline-heading"><span class="CV-timeline-heading-title">Microsoft Engage Intern'22</span> &#8211; <span class="CV-timeline-heading-location">Microsoft</span><small class="CV-timeline-heading-duration">April 2022 - June 2022</small></h3>
+                    <ul class="CV-timeline-details">
+                      <li class="CV-job-timeline-item">Developed a movie recommendation website where a user can search for a movie and get recommendations of similar movies</li>
+                      <li class="CV-job-timeline-item">Tech stacks used : HTML, CSS, Flask, Python & ML </li>
+                      <li class="CV-job-timeline-item"><a class="live-link" href="https://movieandchill.herokuapp.com/" target="_blank">Live Demo</a></li>
+                      <li class="CV-job-timeline-item"><a class="live-link" href="https://github.com/souravkumardubey/Engage22_Project" target="_blank">Github Repo</a></li>
+                    </ul>
+                  </section>
+                  <section class="CV-timeline CV-job">
+                    <h3 class="CV-timeline-heading"><span class="CV-timeline-heading-title">Lead Doubts Solver</span> &#8211; <span class="CV-timeline-heading-location">CodeChef</span><small class="CV-timeline-heading-duration">April 2022 - June 2022</small></h3>
+                    <ul class="CV-timeline-details">
+                      <li class="CV-timeline-details-item">Helped and guided students who are new to competitive coding by clearing their doubts and by teachiing them concepts</li>
+                      <li class="CV-timeline-details-item">Successfully solved 300+ doubts.</li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+            </div>
+        </main>
+    </section>
+
+    <section class="projects-section" id="projects-section">
+      <h2 class="heading">Projects</h2>
+      <div class="project">
+        <a href="https://movieandchill.herokuapp.com/" target="_blank"><img src="./img/movie&chill.png" alt=""></a>
+        <a href="https://sourav-pig-game.netlify.app/" target="_blank"><img src="./img/piggame.png" alt=""></a>
+        <a href="https://tracktodos.netlify.app/" target="_blank"><img src="./img/tracktodos.png" alt=""></a>
+        <a href="https://sourav-guessmynumber.netlify.app/" target="_blank"><img src="./img/guessnumber.png" alt=""></a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact-section">
+      <h2 class="heading">Get In Touch</h2>
+      <div class="contact-ele">
+        <div class="phone-num">
+          <h1 class="mobile">📱</h1>
+          <a>+91 8790586099</a>
+        </div>
+        <div class="email-sec">
+          <h1 class="email">📧</h1>
+          <a href="mailto:skdlp2000@gmail.com">skdlp2000@gmail.com</a>
+        </div>
+      </div>
+
+      <!--  -->
+      <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>CONTACT</span>
+                  <span>ME</span>
+                </div>
+              </div>
+              <div class="screen-body-item">
+                <div class="app-form">
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="NAME" value="">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="EMAIL">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="CONTACT NO">
+                  </div>
+                  <div class="app-form-group message">
+                    <input class="app-form-control" placeholder="MESSAGE">
+                  </div>
+                  <div class="app-form-group buttons">
+                    <button class="app-form-button">CANCEL</button>
+                    <button class="app-form-button">SEND</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+      
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
